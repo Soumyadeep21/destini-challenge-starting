@@ -40,13 +40,13 @@ class StoryBrain {
   String getChoice1() => _storyData[0].choice1;
 
   String getChoice2() => _storyData[0].choice2;
+
+  void nextStory(int choiceNumber) {}
 }
 
 //TODO: Step 23 - Use the storyNumber property inside getStory(), getChoice1() and getChoice2() so that it gets the updated story and choices rather than always just the first (0th) one.
 
 //TODO: Step 25 - Change the storyNumber property into a private property so that only story_brain.dart has access to it. You can do this by right clicking on the name (storyNumber) and selecting Refactor -> Rename to make the change across all the places where it's used.
-
-void nextStory(int choiceNumber) {}
 
 //TODO: Step 20 - Download the story plan here: https://drive.google.com/uc?export=download&id=1KU6EghkO9Hf2hRM0756xFHgNaZyGCou3
 
